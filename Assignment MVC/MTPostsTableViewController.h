@@ -1,5 +1,5 @@
 //
-//  MTViewController.h
+//  MTPostsTableViewController.h
 //  Assignment MVC
 //
 //  Created by Michael Tirenin on 5/11/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MTViewController : UIViewController
+@interface MTPostsTableViewController : UITableViewController
+
+@property (nonatomic, strong) NSMutableArray *posts;
 
 @end

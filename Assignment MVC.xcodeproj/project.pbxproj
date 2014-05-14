@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F23A50591921FC4200CB7DD6 /* MTCreatePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23A50581921FC4200CB7DD6 /* MTCreatePostViewController.m */; };
 		F2628DF1192072FD006D7D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2628DF0192072FD006D7D11 /* Foundation.framework */; };
 		F2628DF3192072FD006D7D11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2628DF2192072FD006D7D11 /* CoreGraphics.framework */; };
 		F2628DF5192072FD006D7D11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2628DF4192072FD006D7D11 /* UIKit.framework */; };
@@ -14,13 +15,15 @@
 		F2628DFD192072FD006D7D11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2628DFC192072FD006D7D11 /* main.m */; };
 		F2628E01192072FE006D7D11 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2628E00192072FE006D7D11 /* MTAppDelegate.m */; };
 		F2628E04192072FE006D7D11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2628E02192072FE006D7D11 /* Main.storyboard */; };
-		F2628E07192072FE006D7D11 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2628E06192072FE006D7D11 /* MTViewController.m */; };
 		F2628E09192072FE006D7D11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2628E08192072FE006D7D11 /* Images.xcassets */; };
 		F2628E10192072FE006D7D11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2628E0F192072FE006D7D11 /* XCTest.framework */; };
 		F2628E11192072FE006D7D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2628DF0192072FD006D7D11 /* Foundation.framework */; };
 		F2628E12192072FE006D7D11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2628DF4192072FD006D7D11 /* UIKit.framework */; };
 		F2628E1A192072FE006D7D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2628E18192072FE006D7D11 /* InfoPlist.strings */; };
 		F2628E1C192072FE006D7D11 /* Assignment_MVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2628E1B192072FE006D7D11 /* Assignment_MVCTests.m */; };
+		F2628E2A192073B9006D7D11 /* MTPost.m in Sources */ = {isa = PBXBuildFile; fileRef = F2628E29192073B9006D7D11 /* MTPost.m */; };
+		F2628E2D192074D9006D7D11 /* MTPostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2628E2C192074D9006D7D11 /* MTPostsTableViewController.m */; };
+		F2628E3319207B72006D7D11 /* MTPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2628E3219207B72006D7D11 /* MTPostTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F23A50571921FC4200CB7DD6 /* MTCreatePostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCreatePostViewController.h; sourceTree = "<group>"; };
+		F23A50581921FC4200CB7DD6 /* MTCreatePostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCreatePostViewController.m; sourceTree = "<group>"; };
 		F2628DED192072FD006D7D11 /* Assignment MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2628DF0192072FD006D7D11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2628DF2192072FD006D7D11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +50,18 @@
 		F2628DFF192072FD006D7D11 /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
 		F2628E00192072FE006D7D11 /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
 		F2628E03192072FE006D7D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F2628E05192072FE006D7D11 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
-		F2628E06192072FE006D7D11 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
 		F2628E08192072FE006D7D11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2628E0E192072FE006D7D11 /* Assignment MVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment MVCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2628E0F192072FE006D7D11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F2628E17192072FE006D7D11 /* Assignment MVCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment MVCTests-Info.plist"; sourceTree = "<group>"; };
 		F2628E19192072FE006D7D11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2628E1B192072FE006D7D11 /* Assignment_MVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment_MVCTests.m; sourceTree = "<group>"; };
+		F2628E28192073B9006D7D11 /* MTPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPost.h; sourceTree = "<group>"; };
+		F2628E29192073B9006D7D11 /* MTPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPost.m; sourceTree = "<group>"; };
+		F2628E2B192074D9006D7D11 /* MTPostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPostsTableViewController.h; sourceTree = "<group>"; };
+		F2628E2C192074D9006D7D11 /* MTPostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPostsTableViewController.m; sourceTree = "<group>"; };
+		F2628E3119207B72006D7D11 /* MTPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPostTableViewCell.h; sourceTree = "<group>"; };
+		F2628E3219207B72006D7D11 /* MTPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPostTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +121,9 @@
 		F2628DF6192072FD006D7D11 /* Assignment MVC */ = {
 			isa = PBXGroup;
 			children = (
-				F2628DFF192072FD006D7D11 /* MTAppDelegate.h */,
-				F2628E00192072FE006D7D11 /* MTAppDelegate.m */,
-				F2628E02192072FE006D7D11 /* Main.storyboard */,
-				F2628E05192072FE006D7D11 /* MTViewController.h */,
-				F2628E06192072FE006D7D11 /* MTViewController.m */,
+				F2628E2619207327006D7D11 /* Models */,
+				F2628E251920730C006D7D11 /* Views */,
+				F2628E2719207332006D7D11 /* Controllers */,
 				F2628E08192072FE006D7D11 /* Images.xcassets */,
 				F2628DF7192072FD006D7D11 /* Supporting Files */,
 			);
@@ -126,6 +133,8 @@
 		F2628DF7192072FD006D7D11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F2628DFF192072FD006D7D11 /* MTAppDelegate.h */,
+				F2628E00192072FE006D7D11 /* MTAppDelegate.m */,
 				F2628DF8192072FD006D7D11 /* Assignment MVC-Info.plist */,
 				F2628DF9192072FD006D7D11 /* InfoPlist.strings */,
 				F2628DFC192072FD006D7D11 /* main.m */,
@@ -150,6 +159,36 @@
 				F2628E18192072FE006D7D11 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2628E251920730C006D7D11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2628E02192072FE006D7D11 /* Main.storyboard */,
+				F2628E3119207B72006D7D11 /* MTPostTableViewCell.h */,
+				F2628E3219207B72006D7D11 /* MTPostTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F2628E2619207327006D7D11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2628E28192073B9006D7D11 /* MTPost.h */,
+				F2628E29192073B9006D7D11 /* MTPost.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F2628E2719207332006D7D11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2628E2B192074D9006D7D11 /* MTPostsTableViewController.h */,
+				F2628E2C192074D9006D7D11 /* MTPostsTableViewController.m */,
+				F23A50571921FC4200CB7DD6 /* MTCreatePostViewController.h */,
+				F23A50581921FC4200CB7DD6 /* MTCreatePostViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2628DFD192072FD006D7D11 /* main.m in Sources */,
-				F2628E07192072FE006D7D11 /* MTViewController.m in Sources */,
+				F2628E3319207B72006D7D11 /* MTPostTableViewCell.m in Sources */,
+				F2628E2D192074D9006D7D11 /* MTPostsTableViewController.m in Sources */,
+				F2628E2A192073B9006D7D11 /* MTPost.m in Sources */,
 				F2628E01192072FE006D7D11 /* MTAppDelegate.m in Sources */,
+				F23A50591921FC4200CB7DD6 /* MTCreatePostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +499,7 @@
 				F2628E21192072FE006D7D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2628E22192072FE006D7D11 /* Build configuration list for PBXNativeTarget "Assignment MVCTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +508,7 @@
 				F2628E24192072FE006D7D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
